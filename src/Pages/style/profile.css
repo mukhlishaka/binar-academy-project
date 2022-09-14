@@ -1,0 +1,62 @@
+.Card {
+  width: 300px;
+  height: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px black;
+}
+
+.upper-container {
+  height: 100px;
+  background: linear-gradient(to left, salmon, pink);
+}
+
+.image-container {
+  background: whitesmoke;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(95px, 45px);
+}
+
+img {
+  /* border: 2px solid salmon; */
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  /* content: url(); */
+}
+
+.lower-container {
+  height: 100px;
+  margin-top: 60px;
+  background: white;
+  text-align: center;
+}
+
+.lower_container h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.lower-container h3 {
+  color: #2f2d2e;
+  font-weight: 600;
+  font-size: 1.5 rem;
+}
+
+.lower-container h4 {
+  color: #2f2d2e;
+  font-weight: 700;
+  font-size: 1.2 rem;
+}
+
+.head{
+  display: inline-flex;
+}
+.side-head{
+  padding-left: 30px;
+  padding-top: 50px;
+}

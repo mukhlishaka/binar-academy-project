@@ -1,0 +1,74 @@
+.hero-container {
+  background-image: url("../assets/asset_lp/RPS_Hero_Bckgr.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  width: 85%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 150px 0 150px 0;
+}
+
+.hero h2 {
+  font-size: 5rem;
+  box-sizing: border-box;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.hero h3 {
+  padding: 0;
+  margin: 10px 5px;
+  color: #90e0ef;
+  font-size: 2rem;
+}
+
+p {
+  width: 500px;
+  margin: 20px 5px;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  margin-top: 10px;
+  /* padding: 10px 31px; */
+}
+
+.button__subs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #90e0ef 5%, #00b4d8 100%);
+  background-color: #00b4d8;
+  border-radius: 30px;
+  border: 1px solid #00b4d8;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  /* padding: 10px 31px; */
+  width: 200px;
+  height: 3rem;
+  text-shadow: 0px 1px 0px #00b4d8;
+}
+
+.button__subs:hover {
+  background: #00b4d8;
+  text-decoration: none;
+}

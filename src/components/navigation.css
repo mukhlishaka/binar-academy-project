@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 8rem;
+  padding: 1rem;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  background-image: url("../Pages/assets/asset_lp/Logo_G2_White.png");
+  background-size: cover;
+  width: 110px;
+  height: 70px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+  transition: 1s;
+}
+.midleware {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 30px;
+}

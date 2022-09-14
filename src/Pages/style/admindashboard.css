@@ -1,0 +1,38 @@
+.table {
+  padding-top: 60px;
+}
+table {
+  border-collapse: collapse;
+  width: 98%;
+  margin: 12px;
+}
+td{
+    color:black
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+input[type="search"] {
+  width: 200px;
+  margin-right: 12px;
+  padding: 6px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.search {
+  display: flex;
+  justify-content: right;
+  padding: 0 20px;
+}

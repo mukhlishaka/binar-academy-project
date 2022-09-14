@@ -1,0 +1,59 @@
+.gamepage {
+  height: 100vh;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.listext {
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.gamelist {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: baseline;
+  height: 200px;
+}
+.gameone {
+  background-image: url(../assets/logorockpaper.png);
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.gametwo {
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.gamethree {
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}

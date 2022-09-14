@@ -1,0 +1,13 @@
+npm install bootstrap
+npm install firebase 
+npm install react-router-dom
+
+
+kelompok 2 : 
+anggota 
+wigar wijaya
+bagus pamudji
+agus maulana
+soraya larasati
+muklis haliqul karim
+rizki farhan toriq
