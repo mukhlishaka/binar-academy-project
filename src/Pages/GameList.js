@@ -2,6 +2,7 @@ import "./style/gamelist.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
 import Navigation from "../components/Navigation";
+import React from "react";
 
 const GameList = (props) => {
   const navigate = useNavigate();

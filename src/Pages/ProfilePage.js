@@ -47,7 +47,7 @@ function ProfilePage() {
       <div className="Card">
         <div className="upper-container">
           <div className="image-container">
-            <img src={pp} alt="profile picture"></img>
+            <img src={pp} alt="picture" />
             <i onClick={changePicture} class="bi bi-images"></i>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import style from "./style/game.css";
+import "./style/game.css";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 
